@@ -1,6 +1,8 @@
 # sandboxed-module
 
-[![Build Status](https://secure.travis-ci.org/felixge/node-sandboxed-module.png)](http://travis-ci.org/felixge/node-sandboxed-module)
+[![Build Status](https://secure.travis-ci.org/log4js-node/node-sandboxed-module.png)](http://travis-ci.org/log4js-node/node-sandboxed-module)
+
+NOTE: this is a fork of [felixge's original](https://github.com/felixge/node-sandboxed-module), that doesn't seem to be maintained at the moment. If felixge's starts to be maintained again, this module will be deprecated.
 
 A sandboxed node.js module loader that lets you inject dependencies into your
 modules.
@@ -8,7 +10,7 @@ modules.
 ## Installation
 
 ``` bash
-npm install sandboxed-module
+npm install @log4js-node/sandboxed-module
 ```
 
 ## Usage
