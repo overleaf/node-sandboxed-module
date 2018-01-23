@@ -1,6 +1,6 @@
 {
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
-  "name": "sandboxed-module",
+  "name": "@log4js-node/sandboxed-module",
   "description": "A sandboxed Node.js module loader that lets you inject dependencies into your modules.",
   "keywords": [
     "require",
@@ -11,8 +11,8 @@
     "testing"
   ],
   "license": "MIT",
-  "version": "2.0.3",
-  "repository": "felixge/node-sandboxed-module",
+  "version": "2.1.0",
+  "repository": "log4js-node/node-sandboxed-module",
   "main": "./lib/sandboxed_module",
   "files": [
     "lib/"

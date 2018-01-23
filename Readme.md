@@ -1,6 +1,8 @@
 # sandboxed-module
 
-[![Build Status](https://secure.travis-ci.org/felixge/node-sandboxed-module.png)](http://travis-ci.org/felixge/node-sandboxed-module)
+[![Build Status](https://secure.travis-ci.org/log4js-node/node-sandboxed-module.png)](http://travis-ci.org/log4js-node/node-sandboxed-module)
+
+NOTE: this is a fork of [felixge's original](https://github.com/felixge/node-sandboxed-module), that doesn't seem to be maintained at the moment. If felixge's starts to be maintained again, this module will be deprecated.
 
 A sandboxed node.js module loader that lets you inject dependencies into your
 modules.
@@ -8,7 +10,7 @@ modules.
 ## Installation
 
 ``` bash
-npm install sandboxed-module
+npm install @log4js-node/sandboxed-module
 ```
 
 ## Usage
@@ -52,6 +54,8 @@ using the same options that were used for the original sandboxed module.
 * `sourceTransformersSingleOnly:` If false, the source transformers will not be run against
 modules required by the sandboxed module. By default it will take the same value as
 `singleOnly`.
+* `ignoreMissing:` If true, injected modules will not be required to have a corresponding file
+on the file system. By default this is false.
 
 ### SandboxedModule.require(moduleId, [options])
 
