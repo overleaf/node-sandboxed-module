@@ -1,0 +1,1 @@
+exports.requiredFromSubModule = require('requiredFromSubModule');
