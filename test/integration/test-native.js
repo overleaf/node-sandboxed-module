@@ -3,4 +3,4 @@ var SandboxedModule = require('../..');
 
 assert.throws(function() {
     SandboxedModule.require('../fixture/nativeStub.node');
-}, process.platform == 'win32' ? /not a valid Win32 application/i : /invalid ELF header/i);
+}, process.platform == 'win32' ? /not a valid Win32 application/i : /unknown file type/i);
