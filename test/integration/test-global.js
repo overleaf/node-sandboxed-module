@@ -16,3 +16,6 @@ for (var key in global) {
 
   assert.strictEqual(globals[key], global[key], key);
 }
+
+// process is now a property and not enumerable, since node v12
+assert.strictEqual(globals.process, global.process, 'process');
